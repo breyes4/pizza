@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza Calculator</title>
+    <script src="http://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+    <script src="code.js"></script>
+
+    <style>
+        .result {
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+<H1>Pizza Calculator</H1>
+<label for="numPizzas">How many pizzas would you like?</label>
+<input type"pizza" id="numPizzas">
+
+<br> <br>
+<label for="numToppings">How many toppings would you like to add?</label>
+<input type"toppings" id="numToppings">
+
+<br> <br>
+<label for="numFriends">How many friends are you going to split it with?</label>
+<input type"friends" id="numFriends">
+
+<br> <br>
+<button id="PizzaPrice">calculate Pizza</button>
+<br>
+
+<p class="result">Your total payment is <span id="friendQuantity"></span>%</p>
+
+
+
+</body>
+</html>
